@@ -66,3 +66,12 @@ saveRDS(results, "sca_results_gamers_only.RDS")
 ggplot2::ggsave("sca_plot_gamers_only.png", p, width = 11, height = 7, dpi = 300)
 
 cat("SCA (gamers only) complete. Saved sca_results_gamers_only.RDS and sca_plot_gamers_only.png.\n")
+
+##########################
+#Writing to pdf
+library(ggplot2)
+spec_obj <- readRDS("sca_results_gamers_only.RDS")
+library(specr)
+plot(spec_obj)
+spec_plot <- plot(spec_obj)
+ggsave("specification_curve_gamers.pdf", plot = spec_plot, width = 30, height = 30)

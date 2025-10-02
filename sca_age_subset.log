@@ -1,0 +1,41 @@
+[2025-10-02 14:01:25] ---- Starting 02b_specification_curve_age_subset ----
+[2025-10-02 14:01:25] Loaded cleaned_data_full.RDS with 12962 rows and 244 columns.
+[2025-10-02 14:01:25] Non-missing game_hours: 12962
+[2025-10-02 14:01:25] Outcomes used (14): SatInc_01, SatJob_01, SatBal_01, SatHouse_01, SatLeis_01, SatPart_01, SatisOv_01, Satis_01, Worth_01, Happy_01, Anxious_rev_01, GenHlth_rev_01, Rushed_01, Stressed_01
+[2025-10-02 14:01:25] Controls used (7): DVAge, DMSex, Educ_bin, LongIll_bin, WorkSta7, EducCur_group, HiQual
+[2025-10-02 14:01:25] Derived age_band with UNI_TOP=21.
+[2025-10-02 14:01:25] Skipped age_band levels due to insufficient data: Teen (13–17), Pre-teen
+[2025-10-02 14:01:25] Subsets used: 40–49, 70+, 60–69, 22–29, 30–39, 50–59, Uni (18–21)
+[2025-10-02 14:01:25] Initial spec grid size: 1008 rows.
+[2025-10-02 14:01:50] ---- Starting 02b_specification_curve_age_subset ----
+[2025-10-02 14:01:50] Loaded cleaned_data_full.RDS with 12962 rows and 244 columns.
+[2025-10-02 14:01:50] Non-missing game_hours: 12962
+[2025-10-02 14:01:50] Outcomes used (14): SatInc_01, SatJob_01, SatBal_01, SatHouse_01, SatLeis_01, SatPart_01, SatisOv_01, Satis_01, Worth_01, Happy_01, Anxious_rev_01, GenHlth_rev_01, Rushed_01, Stressed_01
+[2025-10-02 14:01:50] Controls used (7): DVAge, DMSex, Educ_bin, LongIll_bin, WorkSta7, EducCur_group, HiQual
+[2025-10-02 14:01:50] Derived age_band with UNI_TOP=21.
+[2025-10-02 14:01:50] Skipped age_band levels due to insufficient data: Teen (13–17), Pre-teen
+[2025-10-02 14:01:50] Subsets used: 40–49, 70+, 60–69, 22–29, 30–39, 50–59, Uni (18–21)
+[2025-10-02 14:01:51] Initial spec grid size: 1008 rows.
+[2025-10-02 14:01:51] Final spec grid size after pre-filter: 1008 rows.
+[2025-10-02 14:03:30] ---- Starting 02b_specification_curve_age_subset ----
+[2025-10-02 14:03:30] Loaded cleaned_data_full.RDS with 12962 rows and 244 columns.
+[2025-10-02 14:03:30] Non-missing game_hours: 12962
+[2025-10-02 14:03:30] Outcomes used (14): SatInc_01, SatJob_01, SatBal_01, SatHouse_01, SatLeis_01, SatPart_01, SatisOv_01, Satis_01, Worth_01, Happy_01, Anxious_rev_01, GenHlth_rev_01, Rushed_01, Stressed_01
+[2025-10-02 14:03:30] Controls used (7): DVAge, DMSex, Educ_bin, LongIll_bin, WorkSta7, EducCur_group, HiQual
+[2025-10-02 14:03:30] Derived age_band with UNI_TOP=21.
+[2025-10-02 14:03:30] Skipped age_band levels due to insufficient data: Teen (13–17), Pre-teen
+[2025-10-02 14:03:30] Subsets used: 40–49, 70+, 60–69, 22–29, 30–39, 50–59, Uni (18–21)
+[2025-10-02 14:03:30] Initial spec grid size: 1008 rows.
+[2025-10-02 14:03:31] Final spec grid size after pre-filter: 1008 rows.
+[2025-10-02 14:12:30] ---- Starting 02b_specification_curve_age_subset ----
+[2025-10-02 14:12:31] Loaded cleaned_data_full.RDS with 12962 rows and 244 columns.
+[2025-10-02 14:12:31] Non-missing game_hours: 12962
+[2025-10-02 14:12:31] Outcomes used (14): SatInc_01, SatJob_01, SatBal_01, SatHouse_01, SatLeis_01, SatPart_01, SatisOv_01, Satis_01, Worth_01, Happy_01, Anxious_rev_01, GenHlth_rev_01, Rushed_01, Stressed_01
+[2025-10-02 14:12:31] Controls used (7): DVAge, DMSex, Educ_bin, LongIll_bin, WorkSta7, EducCur_group, HiQual
+[2025-10-02 14:12:31] Derived age_band with UNI_TOP=21.
+[2025-10-02 14:12:31] Skipped age_band levels due to insufficient data: Teen (13–17), Pre-teen
+[2025-10-02 14:12:31] Subsets used: 40–49, 70+, 60–69, 22–29, 30–39, 50–59, Uni (18–21)
+[2025-10-02 14:12:31] Initial spec grid size: 1008 rows.
+[2025-10-02 14:12:31] Final spec grid size after pre-filter: 1008 rows.
+[2025-10-02 14:13:03] Saved results to sca_results_age_subset.RDS and sca_plot_age_subset.png.
+[2025-10-02 14:13:03] ---- Finished 02b_specification_curve_age_subset ----
