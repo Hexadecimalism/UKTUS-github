@@ -1,0 +1,33 @@
+
+Call:
+hurdle(formula = game_minutes ~ SatInc_01 + Happy_01 + Worth_01 + DVAge + DMSex + Educ_bin, data = dat_hurdle, dist = "negbin", zero.dist = "binomial")
+
+Pearson residuals:
+    Min      1Q  Median      3Q     Max 
+-0.6002 -0.2408 -0.1740 -0.1232 17.9217 
+
+Count model coefficients (truncated negbin with log link):
+             Estimate Std. Error z value Pr(>|z|)    
+(Intercept)  6.157790   0.219314  28.078  < 2e-16 ***
+SatInc_01   -0.511307   0.154756  -3.304 0.000953 ***
+Happy_01     0.318661   0.181535   1.755 0.079196 .  
+Worth_01    -0.606741   0.214955  -2.823 0.004763 ** 
+DVAge       -0.006634   0.002646  -2.507 0.012178 *  
+DMSex       -0.620235   0.084638  -7.328 2.34e-13 ***
+Educ_bin     0.231805   0.105384   2.200 0.027833 *  
+Log(theta)   0.596205   0.072342   8.241  < 2e-16 ***
+Zero hurdle model coefficients (binomial with logit link):
+             Estimate Std. Error z value Pr(>|z|)    
+(Intercept)  1.080004   0.328682   3.286  0.00102 ** 
+SatInc_01    0.045140   0.220732   0.205  0.83796    
+Happy_01     0.352686   0.298280   1.182  0.23705    
+Worth_01    -1.115048   0.343357  -3.247  0.00116 ** 
+DVAge       -0.042447   0.003857 -11.004  < 2e-16 ***
+DMSex       -0.852860   0.115992  -7.353 1.94e-13 ***
+Educ_bin    -0.103982   0.147667  -0.704  0.48133    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
+
+Theta: count = 1.8152
+Number of iterations in BFGS optimization: 30 
+Log-likelihood: -3157 on 15 Df
